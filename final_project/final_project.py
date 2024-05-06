@@ -55,7 +55,7 @@ if choose == "질문란":
         return res
 
     # 피클 파일 경로
-    pickle_path = r'leesubm99\final_project\chatbot_model.pkl'
+    pickle_path = 'leesubm99\final_project\chatbot_model.pkl'
 
     # 피클 파일 로드
     my_vectorizer, questions_processed, answers, X = load_chatbot_model(pickle_path)

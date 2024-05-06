@@ -58,3 +58,5 @@ tzlocal==4.2
 urllib3==1.26.14
 validators==0.20.0
 zipp==3.15.0
+konlpy==0.6.0
+customized-konlpy==0.0.64

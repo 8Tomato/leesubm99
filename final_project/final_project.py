@@ -1,8 +1,10 @@
+pip install ckonlpy
 import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from ckonlpy.tag import Twitter
+from konlpy.tag import Twitter
+#from ckonlpy.tag import Twitter
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from streamlit_option_menu import option_menu

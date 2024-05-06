@@ -120,7 +120,7 @@ elif choose == "위험물 지정수량":
     
     
     # 데이터 불러오기
-    df = pd.read_csv('위험물1.csv', encoding='cp949')
+    df = pd.read_csv('final_project/위험물1.csv', encoding='cp949')
 
     # 위험물 유별 선택
     language = ['제1류: 산화성고체', '제2류: 가연성고체', '제3류: 자연발화성물질 및 금수성물질', '제4류: 인화성액체', '제5류: 자기반응성물질', '제6류: 산화성액체']

@@ -1,0 +1,25 @@
+# 다음을 테마로 적용해 본다 - 1. 
+#
+[theme]
+primaryColor= "green"
+backgroundColor= "#F3CA52"  #바탕화면
+secondaryBackgroundColor= "#F6E9B2" #사이드바 컬러#fabb52
+textColor= "#000000"
+#font= "sans serif"
+
+# 다음을 테마로 적용해 본다 - 2. 
+#
+#[theme]
+#primaryColor="white"
+# backgroundColor="#6EC531"
+# secondaryBackgroundColor="#F1D651"
+# textColor="#856256"
+# font="sans serif"
+
+# 다음을 테마로 적용해 본다 - 3. 
+#
+#[theme]
+# base="dark"   또는  "light"
+
+# HEX 컬러는 다음 사이트를 참고해 본다.
+# https://www.color-name.com/

@@ -60,3 +60,4 @@ validators==0.20.0
 zipp==3.15.0
 konlpy==0.6.0
 customized-konlpy==0.0.64
+scikit-learn                 1.4.2

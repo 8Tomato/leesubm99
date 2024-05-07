@@ -11,10 +11,10 @@ from streamlit_option_menu import option_menu
 import jpype
 import os
 
-# JVM 경로 지정
-#jvm_path = '/jvm.dll'  # 올바른 JVM 경로로 수정
+import jpype
+jpype.startJVM(jvmpath='/your/jvm/path')
 
-os.environ['JAVA_HOME'] = r'C:\Program Files\Java\jdk\jre-1.8'
+from jnius import autoclass
 
 
 

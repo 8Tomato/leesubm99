@@ -14,8 +14,6 @@ import jpype
 # JVM 경로 지정
 jvm_path = 'final_project/jvm.dll'
 
-# JPype 초기화
-jpype.startJVM(jvmpath=jvm_path)
 
 
 

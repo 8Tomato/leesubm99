@@ -10,8 +10,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from streamlit_option_menu import option_menu
 import jpype
 
+
 # JVM 경로 지정
-jvm_path = '/path/to/java/bin/server/libjvm.so'
+jvm_path = 'C:/Program Files/Java/jre-1.8/bin/server/jvm.dll'
 
 # JPype 초기화
 jpype.startJVM(jvmpath=jvm_path)

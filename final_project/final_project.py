@@ -9,10 +9,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from streamlit_option_menu import option_menu
 import jpype
-
+import os
 
 # JVM 경로 지정
-#jvm_path = 'final_project/jvm.dll'
+jvm_path = 'C:/Program Files/Java/jre-1.8/bin/server/jvm.dll'  # 올바른 JVM 경로로 수정
+
+# JPype 초기화
+jpype.startJVM(jvmpath=jvm_path)
 
 
 

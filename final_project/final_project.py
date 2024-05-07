@@ -12,10 +12,9 @@ import jpype
 import os
 
 # JVM 경로 지정
-jvm_path = 'C:/Program Files/Java/jre-1.8/bin/server/jvm.dll'  # 올바른 JVM 경로로 수정
+#jvm_path = 'C:/Program Files/Java/jre-1.8/bin/server/jvm.dll'  # 올바른 JVM 경로로 수정
 
-# JPype 초기화
-#jpype.startJVM(jvmpath=jvm_path)
+os.environ['JAVA_HOME'] = 'C:/Program Files/Java/jre-1.8/bin/server/jvm.dll'
 
 
 

@@ -12,7 +12,7 @@ import jpype
 import os
 
 import jpype
-jvmpath = "C:\\Program Files\\Java\\jre-1.8\\bin\\server\\jvm.dll"
+jvmpath = "C:\\Program Files\\Java\\jdk-21\\bin\\server\\jvm.dll"
 jpype.startJVM(jvmpath=jvmpath)
 
 

@@ -12,7 +12,7 @@ import jpype
 
 
 # JVM 경로 지정
-jvm_path = 'final_project/jvm.dll'
+#jvm_path = 'final_project/jvm.dll'
 
 
 

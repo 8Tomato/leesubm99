@@ -14,7 +14,7 @@ import os
 # JVM 경로 지정
 #jvm_path = '/jvm.dll'  # 올바른 JVM 경로로 수정
 
-os.environ['JAVA_HOME'] = '/jvm.dll'
+os.environ['JAVA_HOME'] = '/path/to/jre-1.8'
 
 
 

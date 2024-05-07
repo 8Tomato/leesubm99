@@ -12,9 +12,11 @@ import jpype
 import os
 
 import jpype
-jpype.startJVM(jvmpath='/your/jvm/path')
+jvmpath = "C:\\Program Files\\Java\\jre-1.8\\bin\\server\\jvm.dll"
+jpype.startJVM(jvmpath=jvmpath)
 
-from jnius import autoclass
+
+
 
 
 

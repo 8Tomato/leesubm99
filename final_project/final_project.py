@@ -10,11 +10,14 @@ from sklearn.metrics.pairwise import cosine_similarity
 from streamlit_option_menu import option_menu
 import jpype
 import os
+import asyncio
 
-import jpype
+# 비동기적으로 JVM 시작
+async def start_jvm_async():
+    jpype.startJVM(jvmpath=jvmpath)
+
+# JVM 경로 설정
 jvmpath = "C:\\Program Files\\Java\\jdk-21\\bin\\server\\jvm.dll"
-jpype.startJVM(jvmpath=jvmpath)
-
 
 
 

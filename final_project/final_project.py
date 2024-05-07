@@ -9,6 +9,17 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from streamlit_option_menu import option_menu
 
+[theme]
+primaryColor= "green"
+backgroundColor= "#F3CA52"  #바탕화면
+secondaryBackgroundColor= "#F6E9B2" #사이드바 컬러#fabb52
+textColor= "#000000"
+#font= "sans serif"
+
+
+
+
+
 # 새로 추가한 사이드바 메뉴
 with st.sidebar:
     choose = option_menu("메뉴", ["질문란", "위험물 지정수량"],
